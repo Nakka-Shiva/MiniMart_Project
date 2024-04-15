@@ -1,0 +1,119 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .containers {
+    
+    max-width: 1000px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 10px; 
+    background-image: url("https://e1.pxfuel.com/desktop-wallpaper/251/999/desktop-wallpaper-nature-editing-background-best-editing.jpg"); /* Background image */
+    background-size: cover; 
+    background-position: center; 
+    padding: 0px 140px;
+  }
+  
+  .header {
+    text-align: center;
+    padding: 0px 0;
+    border-bottom: none; 
+    margin-bottom: -7px;
+    color: #fff; 
+  }
+  
+  .header h1 {
+    font-size: 2em;
+    margin: 0;
+  }
+  
+  .category {
+    /* display: flex; */
+    /* justify-content: space-between; */
+    padding: 15px 20px; 
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2); 
+    margin-bottom: 10px;
+    color: #fff; 
+    margin: 0px 0px 0px -75px; font-size: 20px;
+  }
+  
+  .category h2 {
+    font-size: 1.5em;
+    margin: 0;
+  }
+  
+  .items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 20px; 
+    margin: 0px -79px;
+  }
+  
+  .item {
+    width: 30%;
+    margin-bottom: 15px;
+    padding: 15px;
+    border: none; 
+    border-radius: 10px; 
+    background-color: #fff;
+    text-align: center;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); 
+  }
+  
+  .item img {
+    width: 100%;
+    height: auto;
+    max-height: 150px;
+    object-fit: cover;
+    margin-bottom: 5px;
+  }
+  
+  .item h3 {
+    font-size: 1em;
+    margin: 5px 0;
+  }
+  
+  .item p {
+    font-size: 0.8em;
+    margin-bottom: 0;
+  }
+  
+  .item:hover { 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); 
+    transform: scale(1.02); 
+  }
+  
+  .item p span {
+    font-weight: bold;
+  }
+  
+  .buttons {
+    display: flex; 
+    justify-content: space-between; 
+  }
+  
+  .buttons button {
+    background-color: #4CAF50; 
+    color: white;
+    padding: 8px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 0 5px; 
+  }
+  
+  .buttons button:hover {
+    background-color: #45A049;
+  }
+  .arrow{
+    font-size:40px;display: inline;color: white;margin: 12px 24px 152px -120px; text-decoration:none;
+  }
+  a{
+    text-decoration: none;color: white;
+  }
+  .headmini{
+    color: white; text-decoration: none;font-size: 50px;
+  }
